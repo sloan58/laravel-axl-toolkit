@@ -45,9 +45,9 @@ class QueryController extends Controller
             // The CUCM IP URL
             'location' => 'https://10.175.200.10:8443/axl/',
             // AXL Username
-            'login' => '***REMOVED***',
+            'login' => 'Admin',
             // AXL Password
-            'password' => '***REMOVED***',
+            'password' => 'Password',
             // Ignore self-signed certificates
             // and permit SHA1 ciphers (needed for older CUCM versions)
             'stream_context' => stream_context_create([
