@@ -14,7 +14,8 @@ class CucmController extends Controller
      */
     public function index()
     {
-        //
+        $cucms = Cucm::all();
+        return view('cucms.index', compact('cucms'));
     }
 
     /**
